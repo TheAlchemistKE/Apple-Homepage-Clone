@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Montesserat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontesseratThin;
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: MontesseratLight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}

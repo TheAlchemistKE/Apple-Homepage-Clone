@@ -1,0 +1,87 @@
+@import 'fonts.css';
+@import 'reset.css';
+/* VARIABLES */
+:root {
+    --primary-color: #fff;
+    --nav-bg-color: ;
+    --link-color: #0088CC;
+    --primary-font: Montesserat, sans-serif;
+    --thin-primary-font: MontesseratThin, sans-serif;
+    --light-primary-font: MontesseratLight, sans-serif;
+    --link-size: 12px;
+    --large-text-size: 48px;
+    --secondary-text: 24px;
+}
+/* GENERAL STYLING */
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    background: url(../images/background.jpg);
+    background-position: 50% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-text {
+    width: 60%;
+    text-align: center;
+    line-height: 1.7;
+    font-family: var(--primary-font);
+}
+.hero-text > h1 {
+    font-size: var(--large-text-size);
+    font-family: var(--light-primary-font);
+    color: var(--primary-color);   
+}
+.hero-text > p {
+    font-size: var(--secondary-text);
+    color: var(--primary-color);
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: #000;
+    color: var(--primary-color);
+    width: fit-content;
+    padding: 15px 20px;
+    margin-top: -95px; 
+}
+.nav-items {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.nav-item {
+    padding: 0 10px;
+}
+/* PRODUCT CARD */
+.promo-cards > img {
+    width: 325px;
+}
+.promo-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+}
+/* FOOTER */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px;
+}
+.right-footer-content {
+    font-size: var(--link-size);
+}
+.footer-link {
+    border-left: 1px #ccc solid;
+    padding: 0 10px;
+}
+.no-border {
+    border-left: none;
+}
