@@ -131,7 +131,7 @@ a {
 }
 
 /* PRODUCT CARD */
-.promo-cards > img {
+.promo-cards > a > img {
   width: 325px;
 }
 
