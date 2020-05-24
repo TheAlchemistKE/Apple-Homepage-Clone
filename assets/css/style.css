@@ -106,10 +106,6 @@ a {
 
 #search-box {
   background: transparent;
-  background-image: url(../images/white-search-icon.png);
-  background-repeat: no-repeat;
-  background-position: left center;
-  border-top: 1px #000 solid;
   border-radius: 25px;
   padding: 5px;
   outline: none;
@@ -123,23 +119,19 @@ a {
 #search-box:focus {
   outline: none;
   background: #fff;
-  background-image: url(../images/search-icon.png);
-  background-repeat: no-repeat;
-  background-position: left center;
   transition: ease-out 0.5s;
   width: 100%;
 }
 
 /* PRODUCT CARD */
 .promo-cards > a > img {
-  width: 325px;
+  width: 100%;
 }
 
 .promo-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   overflow: hidden;
-  margin-top: 2px;
 }
 
 /* FOOTER */
