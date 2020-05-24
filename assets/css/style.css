@@ -109,7 +109,7 @@ a {
   border-radius: 25px;
   padding: 5px;
   outline: none;
-  width: 60%;
+  width: 107px;
 }
 
 #search-box::placeholder {
@@ -120,6 +120,7 @@ a {
   outline: none;
   background: #fff;
   transition: ease-out 0.5s;
+  padding: 5px 0 5px 20px;
   width: 100%;
 }
 
