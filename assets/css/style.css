@@ -99,7 +99,7 @@ a {
   background: #333;
 }
 
-.nav-item > img {
+.nav-item > a > img {
   width: 20px;
   color: var(--primary-color);
 }
